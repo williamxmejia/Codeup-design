@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Abel|Anton" rel="stylesheet">
 
-    <title></title>
+    <title>Codeup Design</title>
     <style>
         /* Styles associated with NAV */
         nav {
@@ -81,6 +81,7 @@
 
         }
 
+
         @media (min-width: 992px) {
             .ml-auto-lg {
                 margin-left: auto;
@@ -130,7 +131,6 @@
             width: 150px;
             border-radius: 50%;
         }
-
 
         .logo-text {
             font-family: 'Abel', sans-serif;
@@ -235,6 +235,16 @@
         }
 
 
+        @media (min-width: 768px){
+            .logo-text{
+                display: flex;
+                align-items: center;
+                font-size: 2em;
+                margin-bottom: 1em;
+            }
+        }
+
+
     </style>
 </head>
 <body>
@@ -249,24 +259,40 @@
         <nav class="container">
             <!--    The order of some nav elements will change depending on the viewport size     -->
             <ul class="d-flex flex-row flex-sm-row ml-auto-sm mr-auto-sm flex-md-row align-items-center flex-wrap flex-sm-wrap justify-content-center justify-content-md-start list-group">
-                <li class="p-2 order-md-1 order-sm-1"><img src="logo2.png" id="logo"></li>
-                <li class="p-2 order-md-3 order-sm-2 wrap-it px-4"><span class="logo-text">codeup design</span></li>
-                <li class="ml-auto-md p-2 order-md-3 order-sm-3 text-uppercase col-sm-2 px-2" ><a href="#">Services</a></li>
-                <li class="p-2 order-md-4 order-sm-4 text-uppercase col-sm-2 px-0"><a href="#">Work</a> </li>
-                <li class="p-2 order-sm-5 order-4 text-uppercase col-sm-2 px-2"><a href="#">Blog</a></li>
-                <li class="p-2 order-sm-6 order-5 text-uppercase col-sm-2 px-0"><a href="#">Contact</a></li>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-1">
+                            <li class="order-md-1 px-md-0"><img src="logo2.png" class="rounded mx-auto d-block" id="logo"></li>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <li class="order-md-2 wrap-it"><span class="logo-text">codeup design</span></li>
+                        </div>
+                        <div class="col-4 px-5 col-md-2">
+                            <li class="ml-auto-md order-md-3 order-md-3 text-uppercase" ><a href="#">Services</a></li>
+                        </div>
+                        <div class="col-2 col-md-2">
+                            <li class="order-md-4 order-4 text-uppercase"><a href="#">Work</a> </li>
+                        </div>
+                        <div class="col-2 col-md-3">
+                            <li class="order-md-5 order-4 text-uppercase"><a href="#">Blog</a></li>
+                        </div>
+                        <div class="col-3 col-md-2">
+                            <li class="order-md-6 order-5 text-uppercase"><a href="#">Contact</a></li>
+                        </div>
+                    </div>
+                </div>
             </ul>
         </nav>
 
         <!-- sub header section !-->
-        <nav class="" id = "sub-center">
+        <nav class="d-flex flex-row flex-sm-row ml-auto-sm mr-auto-sm flex-md-row align-items-center flex-wrap flex-sm-wrap justify-content-center justify-content-md-start list-group">
             <ul class="d-flex flex-row flex-sm-row ml-auto-sm mr-auto-sm flex-md-row align-items-center flex-wrap flex-sm-wrap justify-content-center justify-content-md-start list-group">
-                <li class="text-uppercase order-sm-1 order-md-1 fw-bold display-3 text-center">visual design & web development</li>
-                <li class="p-2 order-md-3 order-sm-2 order-md-2 wrap-it text-uppercase fw-bold fs-2 p-4">from park city, utah</li>
-                <li class="ml-auto-md p-2 order-sm-3 order-md-3 red text-uppercase"> design</li>
-                <li class="p-2 order-sm-4 order-md-4 text-uppercase yellow">develop</li>
-                <li class="p-2 order-sm-5 order-md-5 text-uppercase green">support</li>
-                <li class="p-2 order-sm-6 order-md-6 text-uppercase aqua">host</li>
+                <li class="text-uppercase order-sm-1 order-1 fw-bold display-3 text-center p-2">visual design & web development</li>
+                <li class="p-2 order-md-3 order-sm-2 order-2 wrap-it text-uppercase fw-bold fs-2 p-4">from park city, utah</li>
+                <li class="ml-auto-md p-2 order-sm-3 order-3 red text-uppercase"> design</li>
+                <li class="p-2 order-sm-4 order-4 text-uppercase yellow">develop</li>
+                <li class="p-2 order-sm-5 order-5 text-uppercase green">support</li>
+                <li class="p-2 order-sm-6 order-6 text-uppercase aqua">host</li>
             </ul>
 
         </nav>
@@ -283,19 +309,19 @@
                 <div class="my-3">
                     <div class="row">
                         <div class="col">
-                            <li class="order-sm-3 text-uppercase" style="margin-left: 2em">Featured project</li>
+                            <li class="order-3 text-uppercase" style="margin-left: 2em">Featured project</li>
                         </div>
                         <div class="col-1">
-                            <li class="order-sm-4"><img src="50x50.png" class="small" alt=""></li>
+                            <li class="order-4"><img src="50x50.png" class="small" alt=""></li>
                         </div>
                         <div class="col-1">
-                            <li class="order-sm-5"><img src="50x50.png" class="small" alt=""></li>
+                            <li class="order-5"><img src="50x50.png" class="small" alt=""></li>
                         </div>
                         <div class="col-1">
-                            <li class="order-sm-6"><img src="50x50.png" class="small" alt=""></li>
+                            <li class="order-6"><img src="50x50.png" class="small" alt=""></li>
                         </div>
                         <div class="col-2">
-                            <li class="order-sm-7"><img src="50x50.png" class="small" alt=""></li>
+                            <li class="order-7"><img src="50x50.png" class="small" alt=""></li>
                         </div>
                     </div>
                 </div>
