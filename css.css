@@ -224,6 +224,65 @@ main{
     text-align: center;
 }
 
+.smallA{
+    margin: .5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 15px;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: #2cd3ba;
+    color: black;
+    text-align: center;
+}
+
+.smallY{
+    margin: .5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 15px;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: #fce15a;
+    color: black;
+    text-align: center;
+}
+
+.smallG{
+    margin: .5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 15px;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: #507a1c;
+    color: black;
+    text-align: center;
+}
+
+.smallR{
+    margin: .5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 15px;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: #b64040;
+    color: black;
+    text-align: center;
+}
 
 @media (min-width: 768px){
     img[src="apple-ipad.jpg"]{
