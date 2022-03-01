@@ -236,6 +236,13 @@
 
 
         @media (min-width: 768px){
+            img[src="apple-ipad.jpg"]{
+                width: 25%;
+                padding: .5em;
+                border: solid lightgray;
+                background-color: lightgray;
+                border-radius: 5%;
+            }
             .logo-text{
                 display: flex;
                 align-items: center;
@@ -243,6 +250,15 @@
                 margin-bottom: 1em;
             }
         }
+
+        @media (max-width: 768px){
+            .hide {
+                display: none;
+            }
+        }
+
+
+
 
 
     </style>
@@ -299,7 +315,6 @@
                         </div>
                     </div>
                 </div>
-
             </ul>
         </nav>
     </div>
@@ -310,6 +325,7 @@
     <!--    The order of some nav elements will change depending on the viewport size     -->
     <ul class="d-flex flex-row flex-sm-row ml-auto-sm mr-auto-sm flex-md-row align-items-center flex-wrap flex-sm-wrap justify-content-center justify-content-md-start list-group" class="small">
         <li class="order-sm-1 text-uppercase fs-5 mb-5">Selected Work</li>
+
         <img src="apple-ipad.jpg" class="img-fluid mx-5" alt="...">
         <div class="container">
             <div class="container">
@@ -324,7 +340,108 @@
                 </div>
             </div>
         </div>
+        <div class="hide">
+        <img src="apple-ipad.jpg" class="img-fluid mx-5" alt="...">
+        <div class="container">
+            <div class="container">
+                <div class="row">
+                    <div class="d-flex justify-content-between">
+                        <li class="order-1 text-uppercase" style="margin-left: 2em">Featured project</li>
+                        <li class="order-2"><img src="50x50.png" class="small" alt=""></li>
+                        <li class="order-3"><img src="50x50.png" class="small" alt=""></li>
+                        <li class="order-4"><img src="50x50.png" class="small" alt=""></li>
+                        <li class="order-5"><img src="50x50.png" class="small" alt=""></li>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="hide">
+            <img src="apple-ipad.jpg" class="img-fluid mx-5" alt="...">
+            <div class="container">
+                <div class="container">
+                    <div class="row">
+                        <div class="d-flex justify-content-between">
+                            <li class="order-1 text-uppercase" style="margin-left: 2em">Featured project</li>
+                            <li class="order-2"><img src="50x50.png" class="small" alt=""></li>
+                            <li class="order-3"><img src="50x50.png" class="small" alt=""></li>
+                            <li class="order-4"><img src="50x50.png" class="small" alt=""></li>
+                            <li class="order-5"><img src="50x50.png" class="small" alt=""></li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hide">
+            <img src="apple-ipad.jpg" class="img-fluid mx-5" alt="...">
+            <div class="container">
+                <div class="container">
+                    <div class="row">
+                        <div class="d-flex justify-content-between">
+                            <li class="order-1 text-uppercase" style="margin-left: 2em">Featured project</li>
+                            <li class="order-2"><img src="50x50.png" class="small" alt=""></li>
+                            <li class="order-3"><img src="50x50.png" class="small" alt=""></li>
+                            <li class="order-4"><img src="50x50.png" class="small" alt=""></li>
+                            <li class="order-5"><img src="50x50.png" class="small" alt=""></li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </ul>
+    <div class="container">
+        <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+        <div class="row">
+            <div class="d-flex col-md-8">
+                <div class="hide">
+                    <img src="apple-ipad.jpg" class="img-fluid mx-5" alt="...">
+                    <div class="container">
+                        <div class="container">
+                            <div class="row">
+                                <div class="d-flex justify-content-between">
+                                    <li class="order-1 text-uppercase" style="margin-left: 2em">Featured project</li>
+                                    <li class="order-2"><img src="50x50.png" class="small" alt=""></li>
+                                    <li class="order-3"><img src="50x50.png" class="small" alt=""></li>
+                                    <li class="order-4"><img src="50x50.png" class="small" alt=""></li>
+                                    <li class="order-5"><img src="50x50.png" class="small" alt=""></li>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+                <div class="col-md-8">
+                    <div class="hide">
+                        <img src="apple-ipad.jpg" class="img-fluid mx-5" alt="...">
+                        <div class="container">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="d-flex justify-content-between">
+                                        <li class="order-1 text-uppercase" style="margin-left: 2em">Featured project</li>
+                                        <li class="order-2"><img src="50x50.png" class="small" alt=""></li>
+                                        <li class="order-3"><img src="50x50.png" class="small" alt=""></li>
+                                        <li class="order-4"><img src="50x50.png" class="small" alt=""></li>
+                                        <li class="order-5"><img src="50x50.png" class="small" alt=""></li>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+        <div class="row">
+            <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+            <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+            <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+        </div>
+
+        <!-- Columns are always 50% wide, on mobile and desktop -->
+        <div class="row">
+            <div class="col-6">.col-6</div>
+            <div class="col-6">.col-6</div>
+        </div>
+    </div>
 </main>
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
