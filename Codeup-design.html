@@ -120,13 +120,13 @@
 
 
         #logo {
-            height: 150px;
-            width: 150px;
+            height: 125px;
+            width: 125px;
             border-radius: 50%;
         }
 
         .logo{
-            height: 105px;
+            height: 150px;
             width: 150px;
             border-radius: 50%;
         }
@@ -166,6 +166,75 @@
             margin-top: 10em;
         }
 
+        .bottom{
+            margin-bottom: 10em;
+        }
+
+        .red{
+            margin: .5em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            font-size: 25px;
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            border: white solid .4em;
+            background-color: #b64040;
+            color: white;
+        }
+
+        .yellow{
+            margin: .5em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            font-size: 25px;
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            border: white solid .4em;
+            background-color: #fce15a;
+            color: white;
+        }
+
+        .green{
+            margin: .5em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            font-size: 25px;
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            border: white solid .4em;
+            background-color: #507a1c;
+            color: white;
+        }
+
+        .aqua{
+            margin: .5em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            font-size: 25px;
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            border: white solid .4em;
+            background-color: #2cd3ba;
+            color: white;
+            text-align: center;
+        }
+
+
     </style>
 </head>
 <body>
@@ -176,55 +245,57 @@
         </div>
 
         <!--   Nav Start     -->
+        <div class="bottom">
         <nav class="container">
             <!--    The order of some nav elements will change depending on the viewport size     -->
             <ul class="d-flex flex-row flex-sm-row ml-auto-sm mr-auto-sm flex-md-row align-items-center flex-wrap flex-sm-wrap justify-content-center justify-content-md-start list-group">
-                <li class="p-2 order-md-1 order-sx-1"><img src="logo.png" id="logo"></li>
-                <li class="p-2 order-md-3 order-sx-2 wrap-it"><span class="logo-text">codeup design</span></li>
-                <li class="ml-auto-md p-2 order-md-3 order-sx-3 text-uppercase" ><a href="#"> Services</a></li>
-                <li class="p-2 order-md-4 order-sx-4 text-uppercase"><a href="#">Work</a> </li>
-                <li class="p-2 order-sx-5 order-4 text-uppercase"><a href="#">Blog</a></li>
-                <li class="p-2 order-sx-6 order-5 text-uppercase"><a href="#">Contact</a></li>
+                <li class="p-2 order-md-1 order-sm-1"><img src="logo2.png" id="logo"></li>
+                <li class="p-2 order-md-3 order-sm-2 wrap-it px-4"><span class="logo-text">codeup design</span></li>
+                <li class="ml-auto-md p-2 order-md-3 order-sm-3 text-uppercase col-sm-2 px-2" ><a href="#">Services</a></li>
+                <li class="p-2 order-md-4 order-sm-4 text-uppercase col-sm-2 px-0"><a href="#">Work</a> </li>
+                <li class="p-2 order-sm-5 order-4 text-uppercase col-sm-2 px-2"><a href="#">Blog</a></li>
+                <li class="p-2 order-sm-6 order-5 text-uppercase col-sm-2 px-0"><a href="#">Contact</a></li>
             </ul>
         </nav>
 
         <!-- sub header section !-->
         <nav class="" id = "sub-center">
-            <ul class="d-flex flex-row flex-sx-row ml-auto-sx mr-auto-sx flex-md-row align-items-center flex-wrap flex-sx-wrap justify-content-center justify-content-md-start list-group">
-                <li class="text-uppercase order-sx-1 fw-bold display-3 text-center ">visual design & web development</li>
-                <li class="p-2 order-md-3 order-sx-2 wrap-it text-uppercase fw-bold fs-1 p-4">from park city, utah</li>
-                <li class="ml-auto-md p-2 order-sx-3 text-uppercase"><img src="logo2.png" class="logo" alt=""></li>
-                <li class="p-2 order-sx-4 text-uppercase"><img src="logo2.png" class="logo" alt=""></li>
-                <li class="p-2 order-sx-5 text-uppercase"><img src="logo2.png" class="logo" alt=""></li>
-                <li class="p-2 order-sx-6 text-uppercase"><img src="logo2.png" class="logo" alt=""></li>
+            <ul class="d-flex flex-row flex-sm-row ml-auto-sm mr-auto-sm flex-md-row align-items-center flex-wrap flex-sm-wrap justify-content-center justify-content-md-start list-group">
+                <li class="text-uppercase order-sm-1 order-md-1 fw-bold display-3 text-center">visual design & web development</li>
+                <li class="p-2 order-md-3 order-sm-2 order-md-2 wrap-it text-uppercase fw-bold fs-2 p-4">from park city, utah</li>
+                <li class="ml-auto-md p-2 order-sm-3 order-md-3 red text-uppercase"> design</li>
+                <li class="p-2 order-sm-4 order-md-4 text-uppercase yellow">develop</li>
+                <li class="p-2 order-sm-5 order-md-5 text-uppercase green">support</li>
+                <li class="p-2 order-sm-6 order-md-6 text-uppercase aqua">host</li>
             </ul>
 
         </nav>
+        </div>
     </header>
 
         <!-- Selected Work-->
     <main class="m-auto">
         <!--    The order of some nav elements will change depending on the viewport size     -->
         <ul class="d-flex flex-row flex-sm-row ml-auto-sm mr-auto-sm flex-md-row align-items-center flex-wrap flex-sm-wrap justify-content-center justify-content-md-start list-group" class="small">
-            <li class="order-sx-1 text-uppercase fs-5 mb-5">Selected Work</li>
+            <li class="order-sm-1 text-uppercase fs-5 mb-5">Selected Work</li>
             <img src="apple-ipad.jpg" class="img-fluid mx-5" alt="...">
             <div class="container">
                 <div class="my-3">
                     <div class="row">
                         <div class="col">
-                            <li class="order-sx-3 text-uppercase" style="margin-left: 2em">Featured project</li>
+                            <li class="order-sm-3 text-uppercase" style="margin-left: 2em">Featured project</li>
                         </div>
                         <div class="col-1">
-                            <li class="order-sx-4"><img src="50x50.png" class="small" alt=""></li>
+                            <li class="order-sm-4"><img src="50x50.png" class="small" alt=""></li>
                         </div>
                         <div class="col-1">
-                            <li class="order-sx-5"><img src="50x50.png" class="small" alt=""></li>
+                            <li class="order-sm-5"><img src="50x50.png" class="small" alt=""></li>
                         </div>
                         <div class="col-1">
-                            <li class="order-sx-6"><img src="50x50.png" class="small" alt=""></li>
+                            <li class="order-sm-6"><img src="50x50.png" class="small" alt=""></li>
                         </div>
                         <div class="col-2">
-                            <li class="order-sx-7"><img src="50x50.png" class="small" alt=""></li>
+                            <li class="order-sm-7"><img src="50x50.png" class="small" alt=""></li>
                         </div>
                     </div>
                 </div>
