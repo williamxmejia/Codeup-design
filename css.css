@@ -92,7 +92,7 @@ a:link{
 
 
 .bg-container {
-    border-top: 55px solid #f0f0f0;
+    border-top: 45px solid #f0f0f0;
     background-color: #ffffff;
     height: 125px;
     width: 100%;
@@ -107,6 +107,9 @@ a:link{
 
 body{
     background-color: #f0f0f0;
+    font-family: 'Abel', sans-serif;
+
+
 }
 
 
@@ -122,12 +125,6 @@ body{
     border-radius: 50%;
 }
 
-.logo-text {
-    font-family: 'Abel', sans-serif;
-    font-size: 50px;
-    text-align: center;
-    display: block;
-}
 
 main > ul{
     list-style-type: none;
