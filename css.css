@@ -281,9 +281,9 @@ main{
     text-align: center;
 }
 
-@media (min-width: 768px){
+@media (min-width: 992px){
     img[src="apple-ipad.jpg"]{
-        width: 25%;
+        width: 100%;
         padding: .5em;
         border: solid lightgray;
         background-color: lightgray;
@@ -295,9 +295,12 @@ main{
         font-size: 2em;
         margin-bottom: 1em;
     }
+    body{
+        width: 100%;
+    }
 }
 
-@media (min-width: 768px){
+@media (max-width: 768px){
     .hide {
         display: none;
     }
