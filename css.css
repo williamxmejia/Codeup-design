@@ -281,7 +281,15 @@ main{
     text-align: center;
 }
 
+
 @media (min-width: 992px){
+    img[src="macbook.jpg"]{
+        width: 100%;
+        padding: .5em;
+        border: solid lightgray;
+        background-color: lightgray;
+        border-radius: 5%;
+    }
     img[src="apple-ipad.jpg"]{
         width: 100%;
         padding: .5em;
@@ -289,6 +297,45 @@ main{
         background-color: lightgray;
         border-radius: 5%;
     }
+    img[src="man.jpg"]{
+        width: 100%;
+        padding: .5em;
+        border: solid lightgray;
+        background-color: lightgray;
+        border-radius: 5%;
+    }
+    img[src="security.jpg"]{
+        width: 100%;
+        padding: .5em;
+        border: solid lightgray;
+        background-color: lightgray;
+        border-radius: 5%;
+    }
+    img[src="google-search.png"]{
+        width: 6em;
+        height: 6em;
+        padding: .25;
+        border: solid lightgray;
+        background-color: lightgray;
+        border-radius: 5%;
+    }
+    img[src="mobile-phone.jpg"]{
+        width: 6em;
+        height: 6em;
+        padding: .25;
+        border: solid lightgray;
+        background-color: lightgray;
+        border-radius: 5%;
+    }
+    img[src="head.jpg"]{
+        width: 6em;
+        height: 6em;
+        padding: .25;
+        border: solid lightgray;
+        background-color: lightgray;
+        border-radius: 5%;
+    }
+
     .logo-text{
         display: flex;
         align-items: center;
@@ -298,10 +345,29 @@ main{
     body{
         width: 100%;
     }
+    .thick-font{
+        text-shadow: 0px 1px, 1px 0px, 1px 1px;
+    }
+    .blue{
+        color:#3B94D9;
+    }
+    .spacing{
+        margin: 10em 0 5em;
+    }
 }
 
-@media (max-width: 768px){
+@media (max-width: 992px){
     .hide {
         display: none;
     }
 }
+
+    @media(min-width: 992px){
+    .show {
+        display: none;
+    }
+    }
+
+    .thic-font{
+        text-shadow: 0px 1px, 1px 0px, 1px 1px;
+    }
